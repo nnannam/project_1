@@ -1,0 +1,17 @@
+.section{
+    padding-block: 80px;
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+    height: 873px;
+    // &__title{
+    //     @include large-text;
+    // }
+    &__icons-list{
+        display: flex;
+    }
+}
