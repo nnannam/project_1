@@ -1,0 +1,61 @@
+.section:nth-child(2){
+    padding: 0;
+}
+.section{
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        @include large-text;
+    }
+    &__button{
+        @include button;
+    }
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    &__category,
+    &__description{
+        @include small-text;
+        color: rgba($color: #ffffff, $alpha: 0.7);
+        line-height: 1.5;
+    }
+    &__category{
+        @include small-text;
+        background-color: #191919;
+        border-radius: 7px;
+        padding: 2px 16px 2px 16px;
+        width:fit-content;
+    }
+    &__title{
+        @include large-text;
+        margin: 0;
+    }
+    &__episode{
+        @include small-text;
+        color: #118da8;
+    }
+    &__item{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 53px;
+        background-color: black;
+        border-radius: 20px;
+        padding: 40px;
+    }
+    &__body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__button{
+        @include button;
+    }
+    &__image{
+        width: 40%;
+    }
+}

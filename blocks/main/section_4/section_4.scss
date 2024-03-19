@@ -1,0 +1,42 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: black;
+    border-radius: 30px;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    &__title{
+        @include large-text;
+        margin: 0;
+    }
+    &__description{
+        @include small-text;
+        color: #118DA8;
+    }
+    &__text,
+    &__email{
+        width: 36.25vw;
+        height: 40px;
+        background-color: #191919;
+        border: 0;
+        border-radius: 5px;
+        @include small-text;
+        color: rgba($color: #ffffff, $alpha: 0.7);
+        padding: 20px;
+    }
+    &__button{
+        @include button;
+        width: 87px;
+    }
+    &__fields{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 20px;
+    }
+}

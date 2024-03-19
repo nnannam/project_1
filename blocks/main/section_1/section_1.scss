@@ -1,17 +1,32 @@
-.section{
-    padding-block: 80px;
-}
 .main{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    column-gap: 60px;
+    column-gap: 50px;
     height: 873px;
-    // &__title{
-    //     @include large-text;
-    // }
+    &__body{
+        margin-right: 170px;
+    }
     &__icons-list{
         display: flex;
+        gap: 10px;
+        padding-left: 0;
+    }
+    &__title{
+        @include large-text(70,22);
+    }
+    &__description{
+        @include small-text;
+    }
+    &__components{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__image{
+        width: 47%;
     }
 }

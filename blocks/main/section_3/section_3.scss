@@ -1,0 +1,25 @@
+.main-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    &__link-description{
+        @include small-text;
+        color: #118DA8;
+    }
+    &__title{
+        @include large-text;
+        margin: 0;
+    }
+    &__description{
+        @include small-text;
+        line-height: 1.5;
+        color: rgba($color: #ffffff, $alpha: 0.7);
+    }
+    &__image{
+        width: 47%;
+    }
+    &__link{
+        width: 17%;
+    }
+}

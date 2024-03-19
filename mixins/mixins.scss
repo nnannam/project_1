@@ -1,10 +1,24 @@
-// @mixin text ($max: 70, $min: 22){
-//     font-size: clamp(#{$min}px, #{$max / 1440 * 100}vw, #{$max}px);
-// }
-@mixin large-text{
+@mixin large-text ($max: 70, $min: 22){
+    font-size: clamp(#{$min}px, #{$max / 1440 * 100}vw, #{$max}px);
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+}
+@mixin small-text{
     font: {
         family: "DM Sans", sans-serif;
-        size: 70px;
+        size: 22px;
+        weight: 400;
       }
       color: #fff;
+}
+@mixin button{
+    height: 50px;
+    width: 180px;
+    background-color: #118DA8;
+    border-radius: 7px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    color: #fff;
+    border: none;
 }

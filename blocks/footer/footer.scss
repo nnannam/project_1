@@ -1,0 +1,17 @@
+.footer{
+    margin-top: 130px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    &__icons-list{
+        display: flex;
+        gap: 10px;
+        padding-left: 0;
+    }
+    &__menu-1-list,
+    &__menu-2-list{
+        line-height: 2.8;
+    }
+}

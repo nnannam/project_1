@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 130px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.footer__icons-list {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+}
+.footer__menu-1-list, .footer__menu-2-list {
+  line-height: 2.8;
+}/*# sourceMappingURL=footer.css.map */
