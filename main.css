@@ -1,5 +1,6 @@
 .header {
   padding-top: 40px;
+  margin-bottom: 50px;
 }
 .header__inner {
   display: flex;
@@ -58,14 +59,12 @@ li {
 .main {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+  -moz-column-gap: 5vw;
+       column-gap: 5vw;
   height: 873px;
-}
-.main__body {
-  margin-right: 170px;
+  max-width: 1920px;
 }
 .main__icons-list {
   display: flex;
@@ -76,7 +75,7 @@ li {
   font-size: clamp(22px, 4.8611111111vw, 70px);
   color: #fff;
   font-weight: 400;
-  letter-spacing: 3.2px;
+  letter-spacing: 3.5px;
 }
 .main__description {
   font-family: "DM Sans", sans-serif;
@@ -92,7 +91,8 @@ li {
   align-items: flex-start;
 }
 .main__image {
-  width: 47%;
+  width: 750px;
+  height: 1009px;
 }
 
 .section:nth-child(2) {
@@ -108,7 +108,7 @@ li {
   font-size: clamp(22px, 4.8611111111vw, 70px);
   color: #fff;
   font-weight: 400;
-  letter-spacing: 3.2px;
+  letter-spacing: 3.5px;
 }
 .section__button {
   height: 50px;
@@ -149,7 +149,7 @@ li {
   font-size: clamp(22px, 4.8611111111vw, 70px);
   color: #fff;
   font-weight: 400;
-  letter-spacing: 3.2px;
+  letter-spacing: 3.5px;
   margin: 0;
 }
 .cards__episode {
@@ -205,7 +205,7 @@ li {
   font-size: clamp(22px, 4.8611111111vw, 70px);
   color: #fff;
   font-weight: 400;
-  letter-spacing: 3.2px;
+  letter-spacing: 3.5px;
   margin: 0;
 }
 .main-2__description {
@@ -239,7 +239,7 @@ li {
   font-size: clamp(22px, 4.8611111111vw, 70px);
   color: #fff;
   font-weight: 400;
-  letter-spacing: 3.2px;
+  letter-spacing: 3.5px;
   margin: 0;
 }
 .form__description {
@@ -284,13 +284,14 @@ li {
 .reviews {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 18px;
 }
 .reviews__title {
   font-size: clamp(22px, 2.5vw, 36px);
   color: #fff;
   font-weight: 400;
-  letter-spacing: 3.2px;
+  letter-spacing: 3.5px;
 }
 .reviews__name {
   font-family: "DM Sans", sans-serif;

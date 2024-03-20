@@ -1,6 +1,7 @@
 .reviews{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 18px;
     &__title{
         @include large-text(36,22);

@@ -2,7 +2,7 @@
     font-size: clamp(#{$min}px, #{$max / 1440 * 100}vw, #{$max}px);
     color: #fff;
     font-weight: 400;
-    letter-spacing: 3.2px;
+    letter-spacing: 3.5px;
 }
 @mixin small-text{
     font: {

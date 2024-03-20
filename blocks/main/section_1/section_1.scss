@@ -1,13 +1,11 @@
 .main{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 5vw;
     height: 873px;
-    &__body{
-        margin-right: 170px;
-    }
+    max-width: 1920px;
     &__icons-list{
         display: flex;
         gap: 10px;
@@ -27,6 +25,7 @@
         align-items: flex-start;
     }
     &__image{
-        width: 47%;
+        width: 750px;
+        height: 1009px;
     }
 }
