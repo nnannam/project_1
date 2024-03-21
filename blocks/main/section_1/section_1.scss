@@ -29,3 +29,12 @@
         height: 1009px;
     }
 }
+@media (max-width: 1024px){
+    .main{
+        &__image{
+            width: 649px;
+            height: 843px;
+        }
+    }
+}
+

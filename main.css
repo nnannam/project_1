@@ -95,6 +95,12 @@ li {
   height: 1009px;
 }
 
+@media (max-width: 1024px) {
+  .main__image {
+    width: 649px;
+    height: 843px;
+  }
+}
 .section:nth-child(2) {
   padding: 0;
 }
